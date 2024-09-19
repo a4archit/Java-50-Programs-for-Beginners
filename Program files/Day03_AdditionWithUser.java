@@ -9,14 +9,14 @@ class Day03_AdditionWithUser {
         int a, b, sum;
         
         // taking user input
-        System.out.println("Enter first number: ");
+        System.out.print("Enter first number: ");
         a = sc.nextInt();
         
-        System.out.println("Enter second number: ");
+        System.out.print("Enter second number: ");
         b = sc.nextInt();
         
         sum = a+b;
         
-        System.out.println("Addition of two numbers: ");
+        System.out.println("Addition of two numbers: "+sum);
     }
 }
