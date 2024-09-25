@@ -11,13 +11,13 @@ class Day31_armstrong {
         System.out.print("Enter a number: ");
         n = sc.nextInt();
         
-        armstrong_msg = isPalindrome(n);
+        armstrong_msg = isArmstrong(n);
         
         System.out.println(n + " is " + armstrong_msg);
         
     }
     
-    public static String isPalindrome(int n){
+    public static String isArmstrong(int n){
         
         // getting number of digits
         int digits = 0;
