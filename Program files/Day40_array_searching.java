@@ -1,1 +1,2 @@
-// array searching 
+// array searching
+// main class
