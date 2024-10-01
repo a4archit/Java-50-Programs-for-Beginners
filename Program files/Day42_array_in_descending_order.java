@@ -8,7 +8,7 @@ class Day42_array_in_descending_order {
         int dsc[] = ascending(arr);
         System.out.println(Arrays.toString(dsc));
     }
-    
+    // method
     public static int[] descending(int arr[]){
         for (int i=0; i<arr.length; i++){
             for (int j=i; j<arr.length; j++){
@@ -19,7 +19,6 @@ class Day42_array_in_descending_order {
                 }
             }
         }
-        
         return arr;
     }
 }
