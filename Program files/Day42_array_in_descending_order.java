@@ -5,7 +5,7 @@ class Day42_array_in_descending_order {
     public static void main(String[] args) {
       
         int arr[] = {1,6,3,9,2};
-        int dsc[] = ascending(arr);
+        int dsc[] = descending(arr);
         System.out.println(Arrays.toString(dsc));
     }
     // method

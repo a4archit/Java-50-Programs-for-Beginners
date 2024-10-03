@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class Day18_area_of_circle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
