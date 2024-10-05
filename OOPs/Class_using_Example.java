@@ -23,9 +23,9 @@ public class Class_using_Example {
         Student st3 = new Student("abhinav", 1003, 19, "bsc-v-c");
 
         System.out.println("\nStudents information are as follows:-");
-        st1.getStudentInfo();
-        st2.getStudentInfo();
-        st3.getStudentInfo();
+        st1.getStudentInfo();    // Calling method for student 1
+        st2.getStudentInfo();    // Calling method for student 2
+        st3.getStudentInfo();    // Calling method for student 3
 
 
 
